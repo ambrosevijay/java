@@ -2,12 +2,12 @@ import java.util.Scanner;
 public class twonumber
 {
     public static void main(String[] args) {
-        Scanner user=new Scanner(System.in);
+        Scanner input=new Scanner(System.in);
         System.out.println("Enter the number1:");
-        int num1=user.nextInt();
+        int num1=input.nextInt();
         System.out.println("Enter the number2");
-        int num2=user.nextInt();
-        //working with control statements.
+        int num2=input.nextInt();
+        //working with control statements if.
         if(num1>num2)
         {
             System.out.println("number one is biggest!");
