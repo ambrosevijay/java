@@ -1,0 +1,25 @@
+//find alphbet or not
+
+package controlStatements;
+
+import java.util.Scanner;
+
+public class AlphabetorNot {
+
+	public static void main(String[] args) {
+		// find alphabets or not
+		Scanner user=new Scanner(System.in);
+		System.out.println("Enter the values:");
+		char ch=user.next().charAt(0);
+		if(ch>='a' && ch<='z' || ch>='A' && ch<='Z')
+		{
+			System.out.println("Alphabets here!");
+		}else
+		{
+			System.out.println("oops,this not Alphabets!");
+		}
+
+	}
+
+}
+
